@@ -20,5 +20,6 @@ Backend:
 - **Supabase** — database + image storage (never put keys in frontend code)
 - **Vercel serverless functions** — files in `api/` folder, used to call external APIs safely
 - **Replicate** — AI image generation, always called from `api/`, never from the browser
+- **Nano Banana 2** — image generation model, accessed via Replicate API
 
 Explain how to deploy the backend and frontend together on Vercel, connect Supabase, get API keys, and how to set environment variables for API keys. Do as many of these steps as possible automatically. Use `supabase` and `vercel` plugins for it. Ask user to install them.
